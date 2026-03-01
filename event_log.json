@@ -1,0 +1,115 @@
+[
+  {
+    "CreateMarket": {
+      "market_id": "BTC-USD",
+      "initial_price": "50000",
+      "im_fraction": "0.05",
+      "mm_fraction": "0.025"
+    }
+  },
+  {
+    "CreateMarket": {
+      "market_id": "ETH-USD",
+      "initial_price": "3000",
+      "im_fraction": "0.05",
+      "mm_fraction": "0.025"
+    }
+  },
+  {
+    "Deposit": {
+      "account_id": 1,
+      "amount": "10000"
+    }
+  },
+  {
+    "Trade": {
+      "account_id": 1,
+      "market_id": "BTC-USD",
+      "size": "1",
+      "price": "50000"
+    }
+  },
+  {
+    "Trade": {
+      "account_id": 1,
+      "market_id": "ETH-USD",
+      "size": "5",
+      "price": "3000"
+    }
+  },
+  {
+    "MarkPriceUpdate": {
+      "market_id": "BTC-USD",
+      "price": "42000"
+    }
+  },
+  {
+    "MarkPriceUpdate": {
+      "market_id": "ETH-USD",
+      "price": "2500"
+    }
+  },
+  {
+    "Deposit": {
+      "account_id": 2,
+      "amount": "5000"
+    }
+  },
+  {
+    "Trade": {
+      "account_id": 2,
+      "market_id": "BTC-USD",
+      "size": "2",
+      "price": "42000"
+    }
+  },
+  {
+    "Trade": {
+      "account_id": 2,
+      "market_id": "ETH-USD",
+      "size": "10",
+      "price": "2500"
+    }
+  },
+  {
+    "Deposit": {
+      "account_id": 3,
+      "amount": "8000"
+    }
+  },
+  {
+    "Trade": {
+      "account_id": 3,
+      "market_id": "BTC-USD",
+      "size": "1",
+      "price": "42000"
+    }
+  },
+  {
+    "Trade": {
+      "account_id": 3,
+      "market_id": "ETH-USD",
+      "size": "-15",
+      "price": "2500"
+    }
+  },
+  {
+    "MarkPriceUpdate": {
+      "market_id": "BTC-USD",
+      "price": "40000"
+    }
+  },
+  {
+    "MarkPriceUpdate": {
+      "market_id": "ETH-USD",
+      "price": "2300"
+    }
+  },
+  {
+    "FundingPayment": {
+      "account_id": 3,
+      "market_id": "BTC-USD",
+      "amount": "-50"
+    }
+  }
+]

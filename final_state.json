@@ -1,0 +1,43 @@
+{
+  "accounts": {
+    "1": {
+      "account_id": 1,
+      "collateral": "0",
+      "positions": {}
+    },
+    "2": {
+      "account_id": 2,
+      "collateral": "1000",
+      "positions": {}
+    },
+    "3": {
+      "account_id": 3,
+      "collateral": "7950",
+      "positions": {
+        "BTC-USD": {
+          "size": "1",
+          "entry_price": "42000"
+        },
+        "ETH-USD": {
+          "size": "-15",
+          "entry_price": "2500"
+        }
+      }
+    }
+  },
+  "markets": {
+    "BTC-USD": {
+      "market_id": "BTC-USD",
+      "mark_price": "40000",
+      "im_fraction": "0.05",
+      "mm_fraction": "0.025"
+    },
+    "ETH-USD": {
+      "market_id": "ETH-USD",
+      "mark_price": "2300",
+      "im_fraction": "0.05",
+      "mm_fraction": "0.025"
+    }
+  },
+  "event_count": 16
+}
